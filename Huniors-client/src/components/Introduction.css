@@ -1,0 +1,80 @@
+/* Introduce.css */
+#introduction-container {
+    background-color: #FDE49E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color : #DD761C;
+    font-size: 25px;
+    
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .big_logo{
+        width : 600px;
+        height : 500px;
+      }
+      .typo_logo{
+        width : 700px;
+        height : 200px;
+        margin : 0px;
+      }
+    }
+
+    .introduction-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0px;
+        strong{
+          font-size : 30px;
+        }
+        strong:first-child{
+          font-size : 40px;
+        }
+
+        .popup-button{
+          border: 0px;
+          background-color: rgba(255, 255, 255, 0);
+          font-size: 50px;
+          color : #DD761C;
+          font-weight: bold;
+          text-decoration: underline;
+          margin-bottom: 10px;
+        }
+        
+        .what-is-pelican{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          padding: 30px;
+          margin : 20px;
+        }
+
+        .pelican1{
+          margin-top:10px;
+        }
+        .pelican2{
+          margin-top : 30px;
+          width: 500px;
+        }
+
+        .start-button{
+          font-size : 40px;
+          margin: 20px;
+          background-color: rgb(255, 255, 255);
+          border : 3px solid #DD761C;
+          padding : 10px 50px;
+          color : #DD761C;
+          font-weight: bold;
+        }
+    }
+}

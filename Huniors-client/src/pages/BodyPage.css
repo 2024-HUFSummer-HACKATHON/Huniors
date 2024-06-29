@@ -1,0 +1,83 @@
+/* BodyPage.css */
+.body-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:#FEB94150;
+    /*
+    background-image: linear-gradient(90deg, #FEB94150 50%, transparent 50%),
+    linear-gradient(#FEB94150 50%, transparent 50%);
+    background-size:30px 30px;
+    */
+}
+
+hr {
+  width: 30%;
+  border: 3px solid #DD761C;
+  margin-bottom: 6%;
+}
+.title {
+  font-size: 50px;
+  padding: 30px 40px;
+  border: #DD761C 5px solid;
+  border-radius: 100%;
+  background-color: #FDE49E;
+  color : #DD761C;
+}
+
+.body-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.exercise-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+  background-color: #ffffff;
+  border: #DD761C 4px solid;
+  border-radius: 8px;
+  width : 560px;
+  height : 315px;
+  color : #DD761C;
+  font-size: 20px;
+
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    background-color: #ffffff;
+    border: 3px solid #dd761c00;
+    color : #DD761C;
+    margin-bottom: 10px;
+  }
+}

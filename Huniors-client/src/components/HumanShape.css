@@ -1,0 +1,38 @@
+/* HumanShape.css */
+.HumanShape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:white;
+  background-image: linear-gradient(90deg, #FEB94150 50%, transparent 50%),
+  linear-gradient(#FEB94150 50%, transparent 50%);
+  background-size:30px 30px;
+}
+
+
+.image-container {
+  position: relative;
+  width: 60%;
+}
+
+.body-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.button-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.button-4, .button-5, .button-6, .button-8 {
+  cursor: pointer;
+}
